@@ -1,0 +1,27 @@
+{
+  "name": "pollster",
+  "version": "1.0.0",
+  "description": "realtime pollster web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llrzjohnson/pusher-polster.git"
+  },
+  "author": "Lester Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llrzjohnson/pusher-polster/issues"
+  },
+  "homepage": "https://github.com/llrzjohnson/pusher-polster#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.18",
+    "pusher": "^2.1.3"
+  }
+}
